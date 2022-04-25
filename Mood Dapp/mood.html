@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Dapp</title>
+    <link rel="stylesheet" href="styles.css" >
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+        <h1 class="heading">Mood Dapp</h1>
+        <p class="para">Here we can set or get the mood:</p>
+        <label for="mood" class="show-mood">Input Mood: </label>
+        <br>
+        <input type="text" id="mood" placeholder="Enter your mood">
+            <div class="btns">
+        <button onclick="setMood()">Set Mood</button>
+        <button onclick="getMood()">Get Mood</button>
+            </div>
+        </div>
+    </div>
+
+    <script
+            src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+            type="application/javascript"
+    ></script>
+<script src="mood.js"></script>
+</body>
+</html>
