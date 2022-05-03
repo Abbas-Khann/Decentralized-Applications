@@ -1,1 +1,1 @@
-### In this repository i will be uploading all the Dapps that i build.
+### In this repository i will be uploading all the Dapps(Decentralized Applications) that i build.
